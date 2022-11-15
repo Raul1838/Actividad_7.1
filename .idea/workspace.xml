@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8524a2f4-c1cb-42e2-8440-79c9df294cce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/ClassifierKmeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/ClassifierKnn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/ClassifierSOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/ClassifierStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/ContextSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej7/DemoStrategySimple.java" afterDir="false" />
+    <list default="true" id="8524a2f4-c1cb-42e2-8440-79c9df294cce" name="Changes" comment="Ej7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/ClassifierKmeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/ClassifierKnn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/ClassifierSOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/ClassifierStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/ContextSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/DemoStrategySimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/Euclidean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej9/Manhattan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,8 +55,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Uni" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ej9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,14 +66,30 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ej7" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raul\Documents\Trash\ei1017\src\main\java\ej9" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoStrategySimple">
+  <component name="RunManager" selected="Application.DemoStrategySimple (1)">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="templateEj2.Cliente" />
       <module name="ei1017" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoStrategySimple (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ej9.DemoStrategySimple" />
+      <module name="ei1017" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ej9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoStrategySimple (1)" />
         <item itemvalue="Application.DemoStrategySimple" />
         <item itemvalue="Application.Cliente" />
       </list>
@@ -102,8 +123,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668527917543</updated>
-      <workItem from="1668527922086" duration="5271000" />
+      <workItem from="1668527922086" duration="7229000" />
     </task>
+    <task id="LOCAL-00001" summary="Ej7">
+      <created>1668536384740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668536384740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ej7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej7" />
   </component>
 </project>
